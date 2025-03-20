@@ -1,0 +1,21 @@
+
+#page {
+  height: 1000px;
+}
+
+
+.YouTubePopUp-Close:before {
+  
+  content: "\2716"!important;
+	font-size: 40px !important;
+	padding: -20px !important;
+	left: -50px
+ 
+}
+
+.button, .wp-block-button .wp-block-button__link {   
+  padding: 10px 20px;   
+  display: none !important;
+}
+ 
+}
