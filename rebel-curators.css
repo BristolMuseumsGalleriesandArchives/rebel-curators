@@ -1,9 +1,15 @@
+/*prevent text selection on kiosk */
+body {
+	user-select:none;
 
+}
+
+/* adjust for screen resolution */
 #page {
  	 height: 1000px;
 }
 
-
+/* improve apppearance of x to close video on the Pi */
 .YouTubePopUp-Close:before {
   
 	content: "\2716"!important;
@@ -13,6 +19,7 @@
  
 }
 
+/* hide back button on landing page */
 .button, .wp-block-button .wp-block-button__link {   
 	  padding: 10px 20px;   
 	  display: none !important;
